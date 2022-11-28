@@ -1,8 +1,9 @@
-name: source
+name: source_deploy
 
 on:
-  workflow_dispatch:
-
+  push:
+    branches:
+      - $default-branch
 jobs:
   deploy:
     runs-on: ubuntu-latest
