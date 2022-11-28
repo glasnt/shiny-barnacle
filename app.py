@@ -22,7 +22,7 @@ app = bottle.default_app()
 
 @bottle.route("/")
 def hello():
-    return "👋 Hello bottle - gunicorn"
+    return "🍾 Hello bottle - gunicorn"
 
 
 if __name__ == "__main__":
